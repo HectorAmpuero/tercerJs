@@ -33,6 +33,7 @@ document.addEventListener('keydown', function (event) {
     } else if (event.key === 'd') {
         boxCaja.style.backgroundColor = "#20c1dd";
     }
+    
 });
 
 

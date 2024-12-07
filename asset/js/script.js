@@ -1,7 +1,7 @@
 const titulo = document.getElementById("titulo");
 titulo.style.backgroundColor = "green";
 
-function pintar(elemento, color = "green") {
+const pintar = (elemento, color = "green") => {
     elemento.style.backgroundColor = color; 
 }
 
